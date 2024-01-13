@@ -1,0 +1,1 @@
+This note is intended to be read from node js
