@@ -20,3 +20,8 @@ Switching response page using replace method
 Set response header status code and others
 
 Working with Json - JavaScript Object Notation
+-convert to JavaScript Object
+
+Extracting query string from url
+
+Show product details

@@ -4,27 +4,17 @@
             <div class="product-desc-image">
                 <img src={{%IMAGE%}} width="280" height="320">
             </div>
-            <div class="product-details-info">
+            <div class="prod">
                 <h1 class="prod">{{%NAME%}}</h1>
                 <h2 style="color: green;">Price: ${{%PRICE%}}</h2>
-                <div class="product-desc-details">
-                    <h3 class="prod">Product Details</h3>
-                    <p class="product-desc-p prod ">Size: {{%SIZE%}}</p>
-                    <p class="product-desc-p prod">Color: {{%COLOR%}}</p>
-                    <p class="product-desc-p prod">Camera: {{%CAMERA%}}</p>
-                    <p class="product-desc-p prod"><b>Model Number: </b>{{%MODELNO%}}</p>
-                    <p class="product-desc-p prod"><b>Model Name: </b>{{%MODELNAME%}}</p>
-                    <p class="product-desc-p prod"><b>ROM: </b>{{%ROM%}} GB</p>
-                </div>
-                <div class="product-details-desc">
-                    <h3>Product Description</h3>
-                    <p class="product-desc-p prod">
-                        {{%DESC%}}
-                    </p>
-                    <br />
-                    <a class="btn-buy" href="/products">Buy Now</a>
-                    <a class="btn-back" href="/products">Back</a>
-                </div>
+                <p>Color: {{%COLOR%}}</p>
+                <p><b>Model Number: </b>{{%MODELNO%}}</p>
+                <p><b>Model Name: </b>{{%MODELNAME%}}</p>
+                <p>Camera: {{%CAMERA%}}</p>
+
+                <br />
+                <a class="btn-buy" href="/products?id={{%ID%}}">Details</a>
+                <a class="btn-back" href="/products">Back</a>
             </div>
         </div>
     </div>
