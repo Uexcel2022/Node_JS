@@ -25,3 +25,10 @@ Working with Json - JavaScript Object Notation
 Extracting query string from url
 
 Show product details
+
+MODULES.
+-core Modules
+-user define mudule
+-third party module
+
+created user define module named: replaceHtml.js
